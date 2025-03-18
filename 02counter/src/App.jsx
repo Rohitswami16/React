@@ -23,9 +23,9 @@ function App() {
     } else {
       setMsg("");
       setCounter(prevCounter => prevCounter+1);
-      setCounter(prevCounter => prevCounter+1);
-      setCounter(prevCounter => prevCounter+1);
-      setCounter(prevCounter => prevCounter+1); // callback behind the scen
+      // setCounter(prevCounter => prevCounter+1);
+      // setCounter(prevCounter => prevCounter+1);
+      // setCounter(prevCounter => prevCounter+1); // callback behind the scen
     }
   };
 
