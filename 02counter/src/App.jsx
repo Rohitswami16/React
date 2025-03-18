@@ -22,7 +22,10 @@ function App() {
       setMsg("You have reached the maximum value");
     } else {
       setMsg("");
-      setCounter(counter + 1);
+      setCounter(prevCounter => prevCounter+1);
+      setCounter(prevCounter => prevCounter+1);
+      setCounter(prevCounter => prevCounter+1);
+      setCounter(prevCounter => prevCounter+1); // callback behind the scen
     }
   };
 
@@ -30,7 +33,7 @@ function App() {
     // console.log(counter);
     // counter -= 1;
     if (counter === 0) {
-      // alert("you have reached minimum value");
+      
       setMsg("You have reached the minimum value");
     } else {
       setMsg("");
@@ -43,8 +46,8 @@ function App() {
       <h1>Simple Counter</h1>
       <h2>Counter Value: {counter}</h2>
       <div className="con">
-        <button onClick={addValue}>Add Value</button>
-        <button onClick={removeValue}>Remove Value</button>
+        <button onClick={addValue}>Increase</button>
+        <button onClick={removeValue}>Decrease</button>
       </div>
       <h2>{msg}</h2>
       </div>
