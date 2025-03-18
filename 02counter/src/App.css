@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+.con {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.maincon {
+  background-color: #3f3737;
+  width: 450px;
+  height: 300px;
+  border: solid 2px black;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
