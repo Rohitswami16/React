@@ -7,18 +7,21 @@ function App() {
   document.body.style.backgroundColor = color;
 
   return (
-    <div className="root">
+    <div className="main">
       <div className="btns">
         <button className="btn" onClick={() => setColor("pink")} style={{backgroundColor:"pink"}}>Pink</button>
         <button className="btn" onClick={() => setColor('white')} style={{backgroundColor:"white"}}>White</button>
         <button className="btn" onClick={() => setColor('red')} style={{backgroundColor:"red"}}>Red</button>
         <button className="btn" onClick={()=> setColor('yellow')} style={{backgroundColor:"yellow"}} >Yellow</button>
-        <button className="btn" onClick={()=> setColor('orange')} style={{backgroundColor:"orange"}} >orange</button>
+      {/* </div>
+      <div className="btns"> */}
+      <button className="btn" onClick={()=> setColor('orange')} style={{backgroundColor:"orange"}} >orange</button>
         <button className="btn" onClick={()=> setColor('blue')} style={{backgroundColor:"blue" }}>Blue</button>
         <button className="btn" onClick={()=> setColor('green')} style={{backgroundColor:"green"}}>Green</button>
+        <button className="btn" onClick={() => setColor('00ffff')} style={{backgroundColor:"00ffff"}}>Skyblue</button>
       </div>
     </div>
-  );
+  ); 
 }
 
 export default App;
