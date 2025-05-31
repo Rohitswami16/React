@@ -13,9 +13,7 @@ function App() {
         <button className="btn" onClick={() => setColor('white')} style={{backgroundColor:"white"}}>White</button>
         <button className="btn" onClick={() => setColor('red')} style={{backgroundColor:"red"}}>Red</button>
         <button className="btn" onClick={()=> setColor('yellow')} style={{backgroundColor:"yellow"}} >Yellow</button>
-      {/* </div>
-      <div className="btns"> */}
-      <button className="btn" onClick={()=> setColor('orange')} style={{backgroundColor:"orange"}} >orange</button>
+        <button className="btn" onClick={()=> setColor('orange')} style={{backgroundColor:"orange"}} >orange</button>
         <button className="btn" onClick={()=> setColor('blue')} style={{backgroundColor:"blue" }}>Blue</button>
         <button className="btn" onClick={()=> setColor('green')} style={{backgroundColor:"green"}}>Green</button>
         <button className="btn" onClick={() => setColor('00ffff')} style={{backgroundColor:"00ffff"}}>Skyblue</button>
