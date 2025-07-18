@@ -1,5 +1,5 @@
-function Chai() {
+export function Chai() {
   return <h3>Chai is ready</h3>;
 }
 
-export default Chai;
+// export default Chai;

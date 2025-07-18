@@ -1,5 +1,6 @@
-import Chai from "./Chai";
 
+import { Chai } from "./chai";
+import { Coffee } from "./Coffee";
 function App() {
 
   const username = "vite"
@@ -8,6 +9,7 @@ function App() {
     <>
       <Chai />
       <h1>chai aur react {username}</h1>
+      <Coffee />
     </>
   );
 }
