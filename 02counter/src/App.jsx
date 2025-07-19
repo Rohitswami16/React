@@ -1,12 +1,10 @@
 // hooks
 
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [counter, setCounter] = useState(15);
+  const [counter, setCounter] = useState(10);
 
   const [msg, setMsg] = useState("");
 
@@ -22,7 +20,7 @@ function App() {
       setMsg("You have reached the maximum value");
     } else {
       setMsg("");
-      setCounter(prevCounter => prevCounter+1);
+      setCounter((prevCounter) => prevCounter + 1);
       // setCounter(prevCounter => prevCounter+1);
       // setCounter(prevCounter => prevCounter+1);
       // setCounter(prevCounter => prevCounter+1); // callback behind the scen
@@ -33,7 +31,6 @@ function App() {
     // console.log(counter);
     // counter -= 1;
     if (counter === 0) {
-      
       setMsg("You have reached the minimum value");
     } else {
       setMsg("");
@@ -50,7 +47,7 @@ function App() {
         <button onClick={removeValue}>Decrease</button>
       </div>
       <h2>{msg}</h2>
-      </div>
+    </div>
   );
 }
 
