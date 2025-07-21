@@ -16,7 +16,10 @@ function App() {
     <>
       <h1 className='bg-red-500 text-black p-4 rounded-xl mb-4'>Tailwind test</h1>
       <Card username="chaiaurcode" btnText="click me" newobj={myObj} />
-      <Card username="hitesh" />
+      {/* <Card username="hitesh" /> */}
+      <Card username="Rohit" btnText='Github'/>
+      <Card username="Kiran" btnText='linkedin' />
+      <Card username="sunil" btnText='facebook' />
     </>
   )
 }
