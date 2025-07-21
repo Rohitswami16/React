@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="main">
-      <div className="btns">
+      <div className="btns" style={{display: "flex", flexWrap: "wrap"}}>
         <button className="btn" onClick={() => setColor("pink")} style={{backgroundColor:"pink"}}>Pink</button>
         <button className="btn" onClick={() => setColor('white')} style={{backgroundColor:"white"}}>White</button>
         <button className="btn" onClick={() => setColor('red')} style={{backgroundColor:"red"}}>Red</button>
@@ -16,7 +16,7 @@ function App() {
         <button className="btn" onClick={()=> setColor('orange')} style={{backgroundColor:"orange"}} >orange</button>
         <button className="btn" onClick={()=> setColor('blue')} style={{backgroundColor:"blue" }}>Blue</button>
         <button className="btn" onClick={()=> setColor('green')} style={{backgroundColor:"green"}}>Green</button>
-        <button className="btn" onClick={() => setColor('00ffff')} style={{backgroundColor:"00ffff"}}>Skyblue</button>
+        <button className="btn" onClick={() => setColor('Grey')} style={{backgroundColor:"Grey"}}>Grey</button>
       </div>
     </div>
   ); 
